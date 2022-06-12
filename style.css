@@ -273,6 +273,9 @@ Grocery List
   border-radius: var(--radius);
   text-transform: capitalize;
 }
+.hide-item {
+  display: none;
+}
 .grocery-item:hover {
   color: var(--clr-grey-5);
   background: var(--clr-grey-10);
