@@ -250,7 +250,28 @@ Grocery List
   transition: var(--transition);
   font-size: 0.85rem;
 }
+.submit-edit {
+  background: var(--clr-primary-8);
+  border-color: transparent;
+  flex: 0 0 5rem;
+  display: grid;
+  align-items: center;
+  padding: 0.25rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  margin-left: -5px;
+  cursor: pointer;
+  content: var(--clr-primary-5);
+  transition: var(--transition);
+  font-size: 0.85rem;
+}
 .submit-btn:hover {
+  background: var(--clr-primary-5);
+  color: var(--clr-white);
+}
+.submit-edit:hover {
   background: var(--clr-primary-5);
   color: var(--clr-white);
 }
